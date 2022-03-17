@@ -1,3 +1,4 @@
+import { MyFirstLibModule } from '@ahmedsayed3071997/my-first-lib';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MyFirstLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
